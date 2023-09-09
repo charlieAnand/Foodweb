@@ -1,0 +1,609 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.layout {
+  max-width: 1536px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+.logo {
+  display: inline-block;
+  width: 37%;
+  vertical-align: middle;
+  padding: 30px;
+}
+#navigation {
+  display: inline-block;
+  width: 57%;
+}
+.nav {
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  color: white;
+  margin: 15px 25px;
+  padding: 15px;
+}
+#searchIcon {
+  display: inline-block;
+  font-size: 20px;
+  width: 5%;
+  color: white;
+}
+.burger {
+  font-size: 20px;
+}
+#containers {
+  display: flex;
+  position: relative;
+}
+.capsicum {
+  top: 12%;
+  position: absolute;
+  right: 12%;
+}
+.tomato {
+  position: absolute;
+  top: 32%;
+  right: 10%;
+}
+.raddish {
+  position: absolute;
+  top: 55%;
+  right: 5%;
+}
+.onion {
+  position: absolute;
+  right: 13%;
+  bottom: 10%;
+}
+.tomato-2 {
+  position: absolute;
+  right: 21%;
+  bottom: 17%;
+}
+.cabbage {
+  bottom: 10%;
+  position: absolute;
+  left: 62%;
+}
+.tomato-3 {
+  left: 50%;
+  position: absolute;
+  bottom: 20%;
+}
+.leaf {
+  position: absolute;
+  left: 41%;
+  top: 35%;
+}
+.tomato-4 {
+  left: 50%;
+  position: absolute;
+  top: 13%;
+}
+.leftContainer {
+  position: relative;
+  background-image: url("background img header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48%;
+}
+.leftContainer::before {
+  content: "";
+  background-image: url("new style.png");
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 112%;
+  position: absolute;
+  top: -12%;
+  right: -92px;
+}
+.rightContainer {
+  width: 52%;
+  background-color: #2f2f2f;
+  height: 795px;
+  z-index: 1;
+}
+.style {
+  position: absolute;
+  right: -90px;
+  height: 99%;
+}
+#quotes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+#quotes .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 703px;
+}
+h1 {
+  font-family: "Grand Hotel", cursive;
+  font-size: 95px;
+  color: #ffc200;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+p {
+  font-size: 29px;
+  color: white;
+  padding: 10px;
+}
+button {
+  background-color: #ffc200;
+  font-size: 19px;
+  font-weight: bold;
+  border: 0;
+  width: 248px;
+  height: 52px;
+  padding: 5px;
+  margin: 32px 0;
+}
+#description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 0 10% 0;
+}
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-family: "Grand Hotel", cursive;
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+.productContainer p {
+  font-size: 25px;
+  text-align: center;
+  width: 67%;
+  padding: 10px;
+  color: black;
+}
+#varietyFoods {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+#samplePics h2 {
+  padding: 10px 0;
+  line-height: 55px;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  max-width: 400px;
+}
+.pics {
+  border-radius: 50%;
+}
+.img p {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+#background {
+  display: flex;
+  align-items: center;
+  background-image: url("style3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.shadowDesign {
+  display: flex;
+  flex-direction: column;
+}
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.imgContainer .pics {
+  padding: 35px;
+}
+.rightContent {
+  width: 50%;
+}
+#statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2f2f2f;
+  height: 800px;
+  position: relative;
+}
+#statistics .capsicum {
+  top: 11%;
+  position: absolute;
+  right: 23%;
+}
+#statistics .tomato {
+  position: absolute;
+  top: 37%;
+  right: 8%;
+}
+#statistics .raddish {
+  position: absolute;
+  top: 68%;
+  right: 5%;
+}
+#statistics .onion {
+  position: absolute;
+  right: 13%;
+  bottom: 0%;
+}
+#statistics .cabbage {
+  bottom: 0%;
+  position: absolute;
+  left: 62%;
+}
+#statistics .capsicum-1 {
+  position: absolute;
+  bottom: 0%;
+  left: 26%;
+}
+#statistics .tomato-3 {
+  left: 5%;
+  position: absolute;
+  bottom: 0;
+}
+#statistics .leaf {
+  position: absolute;
+  left: 5%;
+  top: 35%;
+}
+#statistics .tomato-4 {
+  left: 25%;
+  position: absolute;
+  top: 13%;
+}
+#statistics .productContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 330px;
+}
+#statistics h2 {
+  color: #ffc200;
+  font-weight: 500;
+}
+#newLaunch {
+  display: flex;
+  justify-content: center;
+  background-image: url("img3.png");
+  background-repeat: no-repeat;
+  background-position: 96%;
+}
+.specialItems {
+  border: 5px solid white;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  text-align: center;
+  margin: 40px 49px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h4 {
+  color: #ffc200;
+  font-size: 50px;
+}
+.specialItems h3 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 25px;
+}
+#offers {
+  display: flex;
+  background-image: url("Vector-Smart-design.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  justify-content: flex-start;
+  align-items: end;
+  margin-bottom: 8%;
+  height: 900px;
+}
+#offers .content {
+  margin: 0 55px;
+}
+#layer {
+  background-image: url("yellow layer.png"), url("Place Your Image Here 3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 975px;
+  background-blend-mode: screen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.layerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 703px;
+}
+.layerContainer p {
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  padding: 45px;
+}
+#signUP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+  background-color: #f4f4f4;
+  position: relative;
+}
+#signUP .capsicum {
+  top: 16%;
+  position: absolute;
+  right: 28%;
+}
+#signUP .tomato {
+  position: absolute;
+  top: 40%;
+  right: 15%;
+}
+#signUP .raddish {
+  position: absolute;
+  top: 55%;
+  right: 9%;
+}
+#signUP .onion {
+  position: absolute;
+  right: 20%;
+  bottom: 7%;
+}
+#signUP .cabbage {
+  bottom: 5%;
+  position: absolute;
+  left: 54%;
+}
+#signUP .tomato-3 {
+  position: absolute;
+  bottom: 12%;
+  left: 10%;
+}
+#signUP .leaf {
+  position: absolute;
+  left: 5%;
+}
+#signUP .capsicum-1 {
+  position: absolute;
+  bottom: 13%;
+  left: 30%;
+}
+#signUP .tomato-4 {
+  position: absolute;
+  left: 27%;
+}
+.Subscribe p {
+  color: black;
+  text-align: center;
+}
+.textBox {
+  position: relative;
+  margin: 40px 0;
+  width: 42%;
+}
+input {
+  width: 350px;
+  height: 52px;
+  font-size: 25px;
+  padding: 0 15px;
+  border: 0;
+}
+.primary {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #303030;
+  color: white;
+  padding: 80px 0;
+}
+.titleHere p {
+  font-size: 23px;
+  padding: 20px 0 40px;
+}
+h5 {
+  font-size: 25px;
+  padding: 20px 0;
+}
+ul {
+  list-style-type: none;
+  font-size: 23px;
+  padding: 0;
+}
+li {
+  padding-bottom: 15px;
+}
+.icons {
+  font-size: 30px;
+}
+.footerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+.fa-brands {
+  margin-right: 10px;
+}
+@media (max-width: 1366px) {
+  .capsicum,
+  .tomato,
+  .leaf {
+    display: none;
+  }
+  #varietyFoods {
+    width: 100%;
+  }
+  h2 {
+    font-size: 42px;
+  }
+}
+@media (max-width: 1024px) {
+  .tomato-2,
+  .raddish {
+    display: none;
+  }
+  #varietyFoods {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .img {
+    padding: 30px;
+    width: 33.33%;
+  }
+  .imgContainer .pics {
+    padding: 15px;
+    height: auto;
+    width: 100%;
+  }
+  .rightContent {
+    width: 50%;
+  }
+  .rightContent h1 {
+    font-size: 60px;
+    padding: 10px;
+  }
+  #offers .content {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .img {
+    width: 100%;
+  }
+  .imgContainer .pics {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .leftContainer {
+    display: none;
+  }
+  .rightContainer {
+    width: 100%;
+    height: 700px;
+    padding: 20px;
+  }
+  #navigation {
+    display: none;
+  }
+  #searchIcon {
+    display: none;
+  }
+  .burger {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+  }
+  .onion {
+    right: 5%;
+  }
+  .cabbage {
+    bottom: 2%;
+    left: 45%;
+  }
+  .tomato-3 {
+    bottom: 10%;
+    left: 20%;
+  }
+  .tomato-4 {
+    left: 40%;
+    top: 10%;
+  }
+  .content {
+    align-items: center;
+  }
+  p {
+    text-align: center;
+  }
+  .img {
+    padding: 30px;
+    max-width: 248px;
+  }
+  .img p {
+    font-size: 15px;
+    padding: 0;
+  }
+  .img h2 {
+    font-size: 32px;
+  }
+  .productContainer p {
+    width: 100%;
+  }
+  #background {
+    flex-direction: column;
+  }
+  .imgContainer {
+    width: 75%;
+  }
+  .rightContent {
+    width: 100%;
+  }
+  .rightContent .content {
+    height: 100%;
+  }
+  .imgContainer .pics {
+    max-width: 400px;
+  }
+  #offers {
+    flex-direction: column;
+    background-position: center;
+    align-items: center;
+  }
+  #offers h1 {
+    font-size: 68px;
+  }
+  #offers .content {
+    margin: 0;
+  }
+  .layerContainer p {
+    padding: 15px;
+  }
+}
